@@ -6,4 +6,9 @@ public class Car extends LandVehicle{
         super(name, 5, 4);
         this.doorsLocked = doorsLocked;
     }
+
+    @Override
+    public int averageSpeed(){
+        return 30;
+    }
 }

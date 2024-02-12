@@ -5,4 +5,5 @@ public abstract class LandVehicle extends Vehicle{
         super(name, maxOccupancy);
         this.noOfWheels = noOfWheels;
     }
+
 }

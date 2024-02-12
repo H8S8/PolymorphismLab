@@ -1,18 +1,19 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class CarTest {
+public class BikeTest {
 
-    Car car;
+    Bike bike;
 
     @BeforeEach
-    public void SetUp(){
-        car = new Car("Volvo", true);
+    public void setUp() {
+        bike = new Bike("Giant", 1, 2, false);
     }
 
     @Test
     public void canReturnAverageSpeed(){
-        assertThat(car.averageSpeed()).isEqualTo(30);
+        assertThat(bike.averageSpeed()).isEqualTo(20);
     }
 }
