@@ -4,7 +4,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class BikeTest {
 
-    Bike bike;
+    private Bike bike;
 
     @BeforeEach
     public void setUp() {

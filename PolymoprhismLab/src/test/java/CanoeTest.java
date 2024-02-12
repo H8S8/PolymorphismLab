@@ -4,7 +4,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class CanoeTest {
 
-    Canoe canoe;
+    private Canoe canoe;
 
     @BeforeEach
     public void setUp(){

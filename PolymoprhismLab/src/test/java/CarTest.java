@@ -4,7 +4,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class CarTest {
 
-    Car car;
+    private Car car;
 
     @BeforeEach
     public void SetUp(){
