@@ -12,9 +12,7 @@ public abstract class Vehicle implements IStore {
         this.maxOccupancy = maxOccupancy;
         this.lengthOfTimeInGarage = lengthOfTimeInGarage;
     }
-    public int averageSpeed(){
-        return 0; //This is a placeholder, this function will be overloaded in the subclasses
-    }
+    public abstract int returnAverageSpeed();
 
     public String returnLengthOfTimeInGarage(){
         return ("The vehicle titled " + this.name + " has been in the garage for "

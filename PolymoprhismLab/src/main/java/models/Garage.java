@@ -1,24 +1,24 @@
 package models;
-
+import interfaces.IStore;
 import java.util.ArrayList;
 
 public class Garage {
 
-    private ArrayList<Vehicle> vehicles;
+    private ArrayList<IStore> items;
 
     public Garage(){
-        this.vehicles = new ArrayList<>();
+        this.items = new ArrayList<>();
     }
 
-    public ArrayList<Vehicle> getVehicles(){
-        return this.vehicles;
+    public ArrayList<IStore> getItems(){
+        return this.items;
     }
 
-    public void addVehicle(Vehicle vehicle){
-        this.vehicles.add(vehicle);
+    public void addItem(IStore item){
+        this.items.add(item);
     }
 
-    public void removeVehicle(Vehicle vehicle){
-        this.vehicles.remove(vehicle);
+    public void removeItem(IStore item){
+        this.items.remove(item);
     }
 }

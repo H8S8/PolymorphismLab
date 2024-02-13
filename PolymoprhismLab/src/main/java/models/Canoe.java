@@ -10,7 +10,7 @@ public class Canoe extends Vehicle{
     }
 
     @Override
-    public int averageSpeed(){
+    public int returnAverageSpeed(){
         return 15;
     }
 }

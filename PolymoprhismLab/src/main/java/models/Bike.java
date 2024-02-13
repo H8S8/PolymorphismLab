@@ -10,7 +10,7 @@ public class Bike extends LandVehicle{
     }
 
     @Override
-    public int averageSpeed(){
+    public int returnAverageSpeed(){
         return 20; // Gradient is a decimal
     }
 }

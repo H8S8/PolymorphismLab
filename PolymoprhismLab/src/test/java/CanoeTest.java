@@ -14,7 +14,7 @@ public class CanoeTest {
 
     @Test
     public void canReturnAverageSpeed(){
-        assertThat(canoe.averageSpeed()).isEqualTo(15);
+        assertThat(canoe.returnAverageSpeed()).isEqualTo(15);
     }
 
     @Test

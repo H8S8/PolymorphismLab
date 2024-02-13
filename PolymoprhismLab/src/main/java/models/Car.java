@@ -10,7 +10,7 @@ public class Car extends LandVehicle{
     }
 
     @Override
-    public int averageSpeed(){
+    public int returnAverageSpeed(){
         return 30;
     }
 }

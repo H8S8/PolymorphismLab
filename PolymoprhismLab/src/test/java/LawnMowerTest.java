@@ -16,4 +16,10 @@ public class LawnMowerTest {
     public void canReturnLengthOfTimeInGarage(){
         assertThat(lawnMower.returnLengthOfTimeInGarage()).isEqualTo("The lawnmower titled DeWalt has been in the garage for 59 days.");
     }
+
+    @Test
+    public void canReturnNoOfLoopsOfCable(){
+        assertThat(lawnMower.returnNoOfLoopsOfCable(4)).isEqualTo(5);
+        assertThat(lawnMower.returnNoOfLoopsOfCable(2.5)).isEqualTo(8);
+    }
 }

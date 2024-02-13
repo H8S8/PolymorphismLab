@@ -14,7 +14,7 @@ public class BikeTest {
 
     @Test
     public void canReturnAverageSpeed(){
-        assertThat(bike.averageSpeed()).isEqualTo(20);
+        assertThat(bike.returnAverageSpeed()).isEqualTo(20);
     }
 
     @Test

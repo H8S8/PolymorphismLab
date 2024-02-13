@@ -14,7 +14,7 @@ public class CarTest {
 
     @Test
     public void canReturnAverageSpeed(){
-        assertThat(car.averageSpeed()).isEqualTo(30);
+        assertThat(car.returnAverageSpeed()).isEqualTo(30);
     }
 
     @Test
