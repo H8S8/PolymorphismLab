@@ -13,4 +13,10 @@ public class Car extends LandVehicle{
     public int returnAverageSpeed(){
         return 30;
     }
+
+    @Override
+    public String returnLengthOfTimeInGarage(){
+        return ("The car titled " + this.name + " has been in the garage for "
+                + this.lengthOfTimeInGarage + " days.");
+    }
 }

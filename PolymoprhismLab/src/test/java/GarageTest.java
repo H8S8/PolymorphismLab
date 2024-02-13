@@ -21,26 +21,25 @@ public class GarageTest {
     }
 
     @Test
-    public void canAddVehicle(){
+    public void canAddItem(){
         Canoe canoe = new Canoe("Watery", 3, 16, 6);
+        LawnMower lawnMower = new LawnMower("Cow", 2, 1);
         garage.addItem(canoe);
-        assertThat(garage.getItems().size()).isEqualTo(1);
+        garage.addItem(lawnMower);
+        assertThat(garage.getItems().size()).isEqualTo(2);
     }
 
     @Test
-    public void canRemoveVehicle(){
+    public void canRemoveItem(){
         Canoe canoe = new Canoe("Watery", 3, 16, 6);
         Bike bike = new Bike("Trek", 2, 30, 2, false);
+        LawnMower lawnMower = new LawnMower("Cow", 2, 1);
         garage.addItem(canoe);
         garage.addItem(bike);
-        garage.removeItem(canoe);
-        assertThat(garage.getItems().size()).isEqualTo(1);
-    }
-
-    @Test
-    public void canAddLawnMower(){
-        LawnMower lawnMower = new LawnMower("Cow", 2, 1);
         garage.addItem(lawnMower);
+        
+        garage.removeItem(canoe);
+        garage.removeItem(lawnMower);
         assertThat(garage.getItems().size()).isEqualTo(1);
     }
 

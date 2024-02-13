@@ -19,7 +19,7 @@ public class CarTest {
 
     @Test
     public void canReturnLengthOfTimeInGarage(){
-        assertThat(car.returnLengthOfTimeInGarage()).isEqualTo("The vehicle titled Volvo has been in the garage for 7 days.");
+        assertThat(car.returnLengthOfTimeInGarage()).isEqualTo("The car titled Volvo has been in the garage for 7 days.");
     }
 
     @Test

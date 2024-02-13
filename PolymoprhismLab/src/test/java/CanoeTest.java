@@ -19,6 +19,6 @@ public class CanoeTest {
 
     @Test
     public void canReturnLengthOfTimeInGarage(){
-        assertThat(canoe.returnLengthOfTimeInGarage()).isEqualTo("The vehicle titled Waves has been in the garage for 450 days.");
+        assertThat(canoe.returnLengthOfTimeInGarage()).isEqualTo("The canoe titled Waves has been in the garage for 450 days.");
     }
 }

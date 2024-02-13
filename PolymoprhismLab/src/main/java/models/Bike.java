@@ -13,4 +13,10 @@ public class Bike extends LandVehicle{
     public int returnAverageSpeed(){
         return 20; // Gradient is a decimal
     }
+
+    @Override
+    public String returnLengthOfTimeInGarage(){
+        return ("The bike titled " + this.name + " has been in the garage for "
+                + this.lengthOfTimeInGarage + " days.");
+    }
 }

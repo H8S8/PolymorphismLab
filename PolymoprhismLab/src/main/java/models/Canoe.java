@@ -13,4 +13,10 @@ public class Canoe extends Vehicle{
     public int returnAverageSpeed(){
         return 15;
     }
+
+    @Override
+    public String returnLengthOfTimeInGarage(){
+        return ("The canoe titled " + this.name + " has been in the garage for "
+                + this.lengthOfTimeInGarage + " days.");
+    }
 }

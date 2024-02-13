@@ -3,9 +3,9 @@ import interfaces.IStore;
 
 public abstract class Vehicle implements IStore {
 
-    private String name;
+    protected String name;
     private int maxOccupancy;
-    private int lengthOfTimeInGarage;
+    protected int lengthOfTimeInGarage;
 
     public Vehicle(String name, int maxOccupancy, int lengthOfTimeInGarage){
         this.name = name;
@@ -14,8 +14,8 @@ public abstract class Vehicle implements IStore {
     }
     public abstract int returnAverageSpeed();
 
-    public String returnLengthOfTimeInGarage(){
-        return ("The vehicle titled " + this.name + " has been in the garage for "
-                + this.lengthOfTimeInGarage + " days.");
-    }
+    public abstract String returnLengthOfTimeInGarage();//{
+//        return ("The vehicle titled " + this.name + " has been in the garage for "
+//                + this.lengthOfTimeInGarage + " days.");
+//    }
 }

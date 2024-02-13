@@ -20,6 +20,6 @@ public class LawnMowerTest {
     @Test
     public void canReturnNoOfLoopsOfCable(){
         assertThat(lawnMower.returnNoOfLoopsOfCable(4)).isEqualTo(5);
-        assertThat(lawnMower.returnNoOfLoopsOfCable(2.5)).isEqualTo(8);
+        assertThat(lawnMower.returnNoOfLoopsOfCable(2.5, 5)).isEqualTo(6);
     }
 }

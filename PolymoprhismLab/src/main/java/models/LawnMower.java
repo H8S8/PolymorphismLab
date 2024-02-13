@@ -18,11 +18,11 @@ public class LawnMower implements IStore {
                 + this.lengthOfTimeInGarage + " days.";
     }
 
-    public double returnNoOfLoopsOfCable(int lengthOfCableInOneLoop){
+    public double returnNoOfLoopsOfCable(double lengthOfCableInOneLoop){
         return this.cableLength / lengthOfCableInOneLoop;
     }
 
-    public double returnNoOfLoopsOfCable(double lengthOfCableInOneLoop){
-        return this.cableLength / lengthOfCableInOneLoop;
+    public double returnNoOfLoopsOfCable(double lengthOfCableInOneLoop, double requiredSlack){
+        return (this.cableLength - requiredSlack) / lengthOfCableInOneLoop;
     }
 }
