@@ -8,4 +8,8 @@ public abstract class LandVehicle extends Vehicle{
         this.noOfWheels = noOfWheels;
     }
 
+    public String pumpUpTyres(){
+        return "Tyres are pumped!";
+    }
+
 }
