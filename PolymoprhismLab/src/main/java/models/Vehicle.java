@@ -14,8 +14,6 @@ public abstract class Vehicle implements IStore {
     }
     public abstract int returnAverageSpeed();
 
-    public abstract String returnLengthOfTimeInGarage();//{
-//        return ("The vehicle titled " + this.name + " has been in the garage for "
-//                + this.lengthOfTimeInGarage + " days.");
-//    }
+    public abstract String returnLengthOfTimeInGarage();
+
 }

@@ -37,7 +37,7 @@ public class GarageTest {
         garage.addItem(canoe);
         garage.addItem(bike);
         garage.addItem(lawnMower);
-        
+
         garage.removeItem(canoe);
         garage.removeItem(lawnMower);
         assertThat(garage.getItems().size()).isEqualTo(1);
