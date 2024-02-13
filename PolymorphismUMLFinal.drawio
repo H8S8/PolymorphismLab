@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T16:40:33.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="zLDkc84hcKCEf4JCi8oe" version="23.1.2" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-13T16:49:32.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="A5nPOuWPB5Mjm26xrMse" version="23.1.2" type="device">
   <diagram name="Page-1" id="LKPkmurM3TRmm7ap9exo">
-    <mxGraphModel dx="2283" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="MOBL0cMNc-LrKo_dZ1xy-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" parent="MOBL0cMNc-LrKo_dZ1xy-20" vertex="1">
           <mxGeometry y="60" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="MOBL0cMNc-LrKo_dZ1xy-23" value="+ countVehicles(): int&lt;br&gt;+ addVehicle(Vehicle): void&lt;br&gt;+ removeVehicle(Vehicle): void" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MOBL0cMNc-LrKo_dZ1xy-20" vertex="1">
+        <mxCell id="MOBL0cMNc-LrKo_dZ1xy-23" value="+ getItems(): ArrayList&amp;lt;IStore&amp;gt;&lt;br&gt;+ addItem(Vehicle): void&lt;br&gt;+ removeItem(Vehicle): void" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MOBL0cMNc-LrKo_dZ1xy-20" vertex="1">
           <mxGeometry y="68" width="230" height="62" as="geometry" />
         </mxCell>
         <mxCell id="MOBL0cMNc-LrKo_dZ1xy-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" parent="1" vertex="1">
