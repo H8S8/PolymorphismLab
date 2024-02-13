@@ -1,3 +1,7 @@
+import models.Bike;
+import models.Canoe;
+import models.Garage;
+import models.Vehicle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;

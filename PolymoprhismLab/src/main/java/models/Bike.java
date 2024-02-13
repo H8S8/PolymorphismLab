@@ -1,3 +1,5 @@
+package models;
+
 public class Bike extends LandVehicle{
 
     private boolean electricBike;

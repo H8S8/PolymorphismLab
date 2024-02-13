@@ -1,3 +1,5 @@
+package models;
+
 public class Canoe extends Vehicle{
 
     private int noOfOars;
