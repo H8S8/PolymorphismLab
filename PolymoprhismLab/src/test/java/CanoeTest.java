@@ -16,4 +16,9 @@ public class CanoeTest {
     public void canReturnAverageSpeed(){
         assertThat(canoe.averageSpeed()).isEqualTo(15);
     }
+
+    @Test
+    public void canReturnLengthOfTimeInGarage(){
+        assertThat(canoe.returnLengthOfTimeInGarage()).isEqualTo("The vehicle titled Waves has been in the garage for 450 days.");
+    }
 }
