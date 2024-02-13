@@ -9,7 +9,7 @@ public class BikeTest {
 
     @BeforeEach
     public void setUp() {
-        bike = new Bike("Giant", 1, 2, false);
+        bike = new Bike("Giant", 1, 24, 2, false);
     }
 
     @Test

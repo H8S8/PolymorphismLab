@@ -4,8 +4,8 @@ public class Canoe extends Vehicle{
 
     private int noOfOars;
 
-    public Canoe(String name, int maxNoOfOccupants, int noOfOars){
-        super(name, maxNoOfOccupants);
+    public Canoe(String name, int maxNoOfOccupants, int lengthOfTimeInGarage, int noOfOars){
+        super(name, maxNoOfOccupants, lengthOfTimeInGarage);
         this.noOfOars = noOfOars;
     }
 

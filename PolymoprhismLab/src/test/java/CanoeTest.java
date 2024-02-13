@@ -9,7 +9,7 @@ public class CanoeTest {
 
     @BeforeEach
     public void setUp(){
-        canoe = new Canoe("Waves", 2, 2);
+        canoe = new Canoe("Waves", 2, 450, 2);
     }
 
     @Test

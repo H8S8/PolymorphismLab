@@ -24,15 +24,15 @@ public class GarageTest {
 
     @Test
     public void canAddVehicle(){
-        Canoe canoe = new Canoe("Watery", 3, 6);
+        Canoe canoe = new Canoe("Watery", 3, 16, 6);
         garage.addVehicle(canoe);
         assertThat(garage.getVehicles().size()).isEqualTo(1);
     }
 
     @Test
     public void canRemoveVehicle(){
-        Canoe canoe = new Canoe("Watery", 3, 6);
-        Bike bike = new Bike("Trek", 2, 2, false);
+        Canoe canoe = new Canoe("Watery", 3, 16, 6);
+        Bike bike = new Bike("Trek", 2, 30, 2, false);
         garage.addVehicle(canoe);
         garage.addVehicle(bike);
         garage.removeVehicle(canoe);
